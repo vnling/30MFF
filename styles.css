@@ -78,3 +78,22 @@ ul {
     padding: 30px 10px;
     margin: auto;
 }
+
+#temp {
+    max-width: 95vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#temp p {
+    font-size: 1.6em;
+    padding-right: 50px;
+    line-height: 1.6em;
+}
+
+#carousel {
+    float: left;
+    height: 85vh;
+    padding-left: 20px;
+    padding-right: 80px;
+}
