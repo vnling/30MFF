@@ -71,3 +71,11 @@ ul {
     max-height: 250px;
     border-radius: 50%;
 }
+
+#video {
+    display: block;
+    width: 95vw;
+    height: 83vh;
+    padding: 30px 10px;
+    margin: auto;
+}
