@@ -50,8 +50,7 @@ ul {
 
 .container {
     display: flex;
-    width: 72vw;
-    margin: auto;
+    justify-content: center;
     transform: translate(0, 22vh);
 }
 
