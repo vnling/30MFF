@@ -43,7 +43,6 @@ ul {
 
 #menubar li :hover{
     color: white;
-    border-bottom: 3px solid white;
 }
 
 .container {
@@ -65,7 +64,7 @@ ul {
 }
 
 .container a {
-    border-bottom: none;
+    /* border-bottom: none; */
     font-weight: bold;
     display: block;
 }
