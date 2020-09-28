@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--title);
     border-bottom: 3px solid var(--title);
 }
@@ -51,14 +51,14 @@ ul {
 .container {
     display: flex;
     justify-content: center;
-    transform: translate(0, 22vh);
+    transform: translate(0, 16vh);
 }
 
 .container .person {
-    padding: 0px 30px;
+    padding: 0px 40px;
 }
 
-.container h3, h4 {
+.container h3,a {
     text-align: center;
 }
 
@@ -66,8 +66,19 @@ ul {
     font-size: 24px;
 }
 
+.container a {
+    border-bottom: none;
+    font-weight: 600;
+    display: block;
+}
+
+.container a:hover {
+    color: white;
+    /* border-bottom: 2px solid white; */
+}
+
 .container img {
-    max-height: 250px;
+    max-height: 40vh;
     border-radius: 50%;
 }
 
