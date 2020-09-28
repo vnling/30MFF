@@ -12,9 +12,7 @@ body {
 }
 
 a {
-    /* text-decoration: none; */
     color: var(--title);
-    border-bottom: 3px solid var(--title);
 }
 
 ul {
@@ -68,7 +66,7 @@ ul {
 
 .container a {
     border-bottom: none;
-    font-weight: 600;
+    font-weight: bold;
     display: block;
 }
 
