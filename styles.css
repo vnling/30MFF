@@ -7,10 +7,6 @@ html {
     color: var(--title);
 }
 
-body {
-    background-image: url(./bgimg1.png);
-}
-
 a {
     color: var(--title);
 }
@@ -21,19 +17,46 @@ ul {
     font-size: 24px;
 }
 
+.big-container {
+    position: relative;
+}
+
+#landing {
+    height: auto;
+    display: flex;
+    z-index: 2;
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
 #title {
+    position: absolute;
     font-size: 42px;
     padding-left: 200px;
-    transform: translate(-10px, 30vh);
+    transform: translate(-10px, 35vh);
     border-bottom: 5px solid var(--title);
     max-height: 100px;
     max-width: 720px;
+    z-index: 10;
+}
+
+#title h1 {
+    margin: 0;
+}
+
+#title p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
 }
 
 #menubar {
     position: absolute;
     bottom: 30px;
     right: 30px;
+    z-index: 10;
 }
 
 #menubar ul, li {
@@ -46,9 +69,11 @@ ul {
 }
 
 .container {
+    position: absolute;
     display: flex;
     justify-content: center;
-    transform: translate(0, 16vh);
+    transform: translate(11%, 16vh);
+    z-index: 10;
 }
 
 .container .person {
@@ -64,7 +89,7 @@ ul {
 }
 
 .container a {
-    /* border-bottom: none; */
+    border-bottom: none;
     font-weight: bold;
     display: block;
 }
@@ -80,28 +105,33 @@ ul {
 }
 
 #video {
+    position: absolute;
     display: block;
     width: 95vw;
     height: 83vh;
     padding: 20px 10px;
     margin: auto;
+    z-index: 10;
 }
 
 #temp {
+    position: absolute;
     max-width: 95vw;
     margin: auto;
     padding-top: 20px;
+    z-index: 10;
 }
 
 #temp p {
-    font-size: 1.6em;
-    padding-right: 50px;
-    line-height: 1.6em;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.2em;
 }
 
 #carousel {
     float: left;
-    height: 85vh;
-    padding-left: 20px;
+    max-width: 40%;
+    padding-left: 60px;
     padding-right: 80px;
+    z-index: 10;
 }
