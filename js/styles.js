@@ -4,7 +4,7 @@ var c = document.getElementById("landing");
 var ctx = c.getContext("2d");
 
 var circles = [];
-var lines = ["In keeping with the spirit of a thirty minute film festival (30MFF), this film was shot and edited in under thirty minutes.", "As students whose plans were deeply affected by COVID-19, we wanted to use this creative opportunity to reflect on how our lives have changed and how they remain the same.", "What People Do is a film that captures the result of our collective reflections. We hope that it uplifts you and encourages you to think about the joy and beauty in life that no crisis can take away.", "Click on a blank part of the screen!"];
+var lines = ["In keeping with the spirit of a thirty minute film festival (30MFF), this film was shot and edited in under thirty minutes.", "As students whose plans were deeply affected by COVID-19, we wanted to use this creative opportunity to reflect on how our lives have changed and how they remain the same.", "What People Do is a film that captures the result of our collective reflections. We hope that it uplifts you and encourages you to think about the joy and beauty in life that no crisis can take away.", "Click around on blank parts of the screen to learn more!"];
 var curr_ind = 0;
 
 c.width = document.documentElement.clientWidth; // equals window dimension
