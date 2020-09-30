@@ -1,7 +1,9 @@
+/* setting color variable to make changes easier */
 :root {
     --title: #4e4e4e;
 }
 
+/* general tags */
 html {
     font-family: 'Courier New', Courier, monospace;
     color: var(--title);
@@ -17,6 +19,7 @@ ul {
     font-size: 24px;
 }
 
+/* canvas-related tags */
 .big-container {
     position: relative;
 }
@@ -30,6 +33,24 @@ ul {
     left: 0px;
 }
 
+/* menu bar related tags */
+#menubar {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
+}
+
+#menubar ul, li {
+    display: inline;
+    padding: 0px 8px;
+}
+
+#menubar li :hover{
+    color: white;
+}
+
+/* homepage */
 #title {
     position: absolute;
     font-size: 42px;
@@ -52,22 +73,7 @@ ul {
     text-align: right;
 }
 
-#menubar {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    z-index: 10;
-}
-
-#menubar ul, li {
-    display: inline;
-    padding: 0px 8px;
-}
-
-#menubar li :hover{
-    color: white;
-}
-
+/* flexbox container on our team page */
 .container {
     position: absolute;
     display: flex;
@@ -96,7 +102,6 @@ ul {
 
 .container a:hover {
     color: white;
-    /* border-bottom: 2px solid white; */
 }
 
 .container img {
@@ -104,6 +109,7 @@ ul {
     border-radius: 50%;
 }
 
+/* video on watch page */
 #video {
     position: absolute;
     display: block;
@@ -111,27 +117,5 @@ ul {
     height: 83vh;
     padding: 20px 10px;
     margin: auto;
-    z-index: 10;
-}
-
-#temp {
-    position: absolute;
-    max-width: 95vw;
-    margin: auto;
-    padding-top: 20px;
-    z-index: 10;
-}
-
-#temp p {
-    font-size: 1.2em;
-    font-weight: bold;
-    line-height: 1.2em;
-}
-
-#carousel {
-    float: left;
-    max-width: 40%;
-    padding-left: 60px;
-    padding-right: 80px;
     z-index: 10;
 }
