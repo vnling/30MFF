@@ -28,7 +28,7 @@ I also used CSS to make the links in the menubar turn white when they are hovere
 
 Below are screenshots of the other pages on my website. The backgrounds on these pages are interactive in the same way the homepage is, though these interactions are not the focus of the page.
 
-<img src = "docs/screenshot1.png width = 600><img src = "docs/screenshot2.png" width = 600>
+<img src = "docs/screenshot1.png" width = 600><img src = "docs/screenshot2.png" width = 600>
 
 ## Reflections
 
