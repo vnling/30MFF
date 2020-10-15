@@ -77,13 +77,21 @@ ul {
 .container {
     position: absolute;
     display: flex;
+    height: 90vh;
+    width: 98vw;
     justify-content: center;
-    transform: translate(11%, 16vh);
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* width: -moz-fit-content;
+    width: fit-content;
+    margin: auto; */
+    /* transform: translate(0, 16vh); */
     z-index: 10;
 }
 
 .container .person {
     padding: 0px 40px;
+    flex-shrink: 1;
 }
 
 .container h3,a {
